@@ -7,9 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
         tabsBtn.addEventListener('click', function(event) {
             const path = event.currentTarget.dataset.path;
             document.querySelectorAll('.tabs__content').forEach(function(tabContent) {
-                tabContent.classList.remove('tab-content-active')
-            })
-            document.querySelector(`[data-target="${path}"]`).classList.add('tab-content-active')
+                tabContent.classList.remove('tab-content-active');
+              })
+            document.querySelectorAll('.tabs__item').forEach(function(tabContent) {
+                tabContent.classList.remove('tabs__btn-active');
+              })
+            document.querySelector(`[data-target="${path}"]`).classList.add('tab-content-active');
+            document.querySelector(`[data-path="${path}"]`).classList.add('tabs__btn-active');
         })
     })
 
