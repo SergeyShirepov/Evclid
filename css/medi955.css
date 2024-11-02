@@ -1,0 +1,115 @@
+@media (max-width: 955px) {
+    .container {
+        width: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+    /* HERO */
+
+    .hero__head h1 {
+        font-size: 47px;
+        font-weight: 800;
+        line-height: 60.95px;
+    }
+
+    .hero__head p {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.94px;
+    }
+
+    .hero {
+        padding-top: 160px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero__btn {
+        margin-top: 90px;
+    }
+
+    .hero__btn a {
+        width: 280px;
+        height: 78px;
+        padding: 18.57px 37.14px;
+        background-color: rgba(255, 153, 0, 1);
+        font-size: 23.46px;
+        font-weight: 700;
+        line-height: 28.6px;
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+    }
+
+
+        /* ABOUT US */
+
+    .detailed-content p {
+        max-width: 366px;
+    }
+
+    .consult-item {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .consult-item img {
+        width: 114px;
+        height: 99px;
+        margin-left: auto;
+    }
+
+    .con1 {
+        margin-left: 16px;
+        margin: auto;
+    }
+
+    /* ABOUT JOB */
+
+    .aboutjob__content {
+        flex-direction: column-reverse;
+    }
+
+    .aboutjob__text {
+        margin-top: 38px;
+    }
+
+    .aboutjob__content-left {
+        height: auto;
+    }
+
+    .aboutjob_btn {
+        margin-top: 25px;
+    }
+
+    .about-us_contract {
+        margin-left: 30px;
+    }
+
+    /* QUESTIONS */
+    
+    .questions__list-item {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+
+    .icons {
+        margin-top: 16px;
+    }
+
+    .footer__logo {
+        margin-top: 50px;
+    }
+
+}

@@ -1,0 +1,40 @@
+@media (max-width: 1280px) {
+
+    /* HEADER */
+
+    .header__nav {
+        display: none;
+    }
+
+    .heder__nav-img {
+        display: block;
+        order: -1;
+    }
+
+
+    /* ABOUT US */
+
+    .about-us__container {
+        display: block;
+    }
+
+    .consult {
+        margin-left: 0px;
+    }
+
+    .consult-item {
+        margin-top: 32px;
+    }
+
+    .detailed {
+        max-width: 100%;
+    }
+
+
+    /* FOOTER */
+
+    .footer__right {
+        display: none;
+    }
+
+}
