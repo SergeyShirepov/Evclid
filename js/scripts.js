@@ -25,7 +25,7 @@ const swiper = new Swiper('.swiper', {
   // Optional parameters
   // direction: 'vertical',
   loop: true,
-autoplay: true,
+  autoplay: true,
 
   // If we need pagination
   pagination: {
@@ -56,6 +56,18 @@ $( function() {
       active: false,
   });
 } );
-
 })
 
+/* burger */
+
+const burgerBtn = document.querySelector('.burger');
+const menuClose = document.querySelector('.menu-close');
+const menuBurger = document.querySelector('.nav');
+
+burgerBtn.addEventListener('click', () => {
+    menuBurger.classList.add('burger-active');
+});
+
+menuClose.addEventListener('click', () => {
+    menuBurger.classList.remove('burger-active');
+});

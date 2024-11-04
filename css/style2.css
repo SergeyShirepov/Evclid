@@ -30,6 +30,8 @@
 }
 
 .swiper {
+    margin-top: 50px;
+    border-radius: 32px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -44,7 +46,7 @@
 }
 
 .swiper-vertical>.swiper-wrapper {
-    flex-direction: column
+    flex-direction: column;
 }
 
 .swiper-wrapper {
