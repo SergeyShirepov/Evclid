@@ -219,6 +219,7 @@ li {
     object-fit: cover;
 }
 
+
 .hero__head h1 {
     font-size: 70px;
     font-weight: 800;
@@ -233,7 +234,6 @@ li {
     max-width: 790px;
     height: 58px;
     margin-top: 24px;
-
 }
 
 .hero__btn {
