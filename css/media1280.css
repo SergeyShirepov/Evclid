@@ -102,6 +102,13 @@
         display: block;
     }
 
+    /* HERO */
+    .hero {
+        width: 80%;
+        padding: 50px 80px;
+
+    }
+
     .consult {
         margin-left: 0px;
     }

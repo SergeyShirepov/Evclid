@@ -8,6 +8,10 @@
 
     /* HERO */
 
+    .swiper {
+        height: 662px;
+    }
+
     .hero__head h1 {
         font-size: 47px;
         font-weight: 800;
@@ -28,7 +32,7 @@
     }
 
     .hero__btn {
-        margin-top: 90px;
+        margin-top: 60px;
     }
 
     .hero__btn a {
