@@ -28,11 +28,11 @@ const swiper = new Swiper('.swiper', {
   autoplay: true,
 
   // If we need pagination
-  // pagination: {
-  //   el: '.swiper-pagination',
-  //   clickable: true,
-  //   dynamicBullets: true,
-  // },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
+  },
 
   // Navigation arrows
   navigation: {
