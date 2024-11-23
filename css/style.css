@@ -608,9 +608,6 @@ li {
     border-radius: 32px;
     display: flex;
     align-items: center;
-}
-
-.tabs__info__btns {
     padding: 20px 40px;
     font-size: 16px;
     margin-right: 30px;
